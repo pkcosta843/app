@@ -7,7 +7,7 @@ const mensagem = "Olá, mundo!"
 }
 console.log(mensagem);*/
 
-//arrays, objetos
+/*arrays, objetos
 let meta = {
    value: 'ler um livro por mês',
    address: 2,
@@ -15,10 +15,25 @@ let meta = {
    log: (info) => {
       console.log(info)
    }
-}
+}*/
 
-meta.value = "não é mais ler um livro"
-meta.log(meta.value)
+let meta = {
+   value: 'ler um livro por mês',
+   checked: false
+}
+let metas = [
+   meta,
+   {
+      value: "caminhar  20 minutos todos os dias",
+      checked: false
+   }
+]
+
+console.log(metas[1].value)
+console.log(meta.value)
+
+//meta.value = "não é mais ler um livro"
+//meta.log(meta.value)
 
 //function // arrow function
 //const criarMeta = () => {}
