@@ -15,7 +15,7 @@ let meta = {
    log: (info) => {
       console.log(info)
    }
-}*/
+}
 
 let meta = {
    value: 'ler um livro por mês',
@@ -38,4 +38,29 @@ console.log(meta.value)
 //function // arrow function
 //const criarMeta = () => {}
 
-//function criarMeta() {}
+//function criarMeta() {}*/
+
+
+/*function start() {
+   console.log('comecou')
+}
+
+start()
+
+// OU
+
+const start = () => {
+   console.log('comecou')
+}
+
+start()*/
+
+const start = () => {
+   let count = 0
+   while (count < 10) {
+         console.log(count)
+         count++     // OU count = count + 1  
+   }
+}
+
+start()
